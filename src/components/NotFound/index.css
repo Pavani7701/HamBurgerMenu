@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.not-found-image {
+  width: 328px;
+}
+.heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    margin-top: 60px;
+  }
+  .not-found-image {
+    width: 475px;
+  }
+  .heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.22;
+  }
+  .para {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.33;
+    margin-top: 6px;
+    width: 300;
+  }
+}
